@@ -20,5 +20,4 @@ services:
       - backend
     volumes:
       - ./frontend:/usr/share/nginx/html
-    environment:
-      - NODE_ENV=production
+
